@@ -1,0 +1,146 @@
+/* Munnar Place page start  */
+
+.munnar-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../public/Assets/munnarbg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.munnar-place-slider-img {
+  width: 100%;
+  height: 350px;
+}
+
+/* Read more /read less css start  */
+.hidden {
+  display: none;
+}
+
+/* button {
+  border: 0;
+  background: black;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 7px;
+  transition: 0.2s;
+  display: block;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+} */
+
+button:hover {
+  scale: 1.01;
+  opacity: 0.9;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  scale: 0.99;
+  box-shadow: 0 0 0 transparent;
+}
+
+/* Read more /read less css end  */
+
+.dfgxdf h5 {
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.dfgxdf {
+  position: absolute;
+  top: 75%;
+  font-size: 30px;
+}
+
+.places-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../public/Assets/Banner1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-box {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.input-group-btn {
+  position: relative;
+  left: -10px;
+}
+.search-icon {
+  background: black;
+  color: white;
+  border-radius: unset;
+}
+
+.search-icon:hover {
+  background: black;
+  color: white;
+  border-radius: unset;
+}
+
+.place-caption {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  padding: 190px 0 0 0;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.fixed-icon {
+  border: 1px solid black;
+  float: right;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 35%;
+  right: 10px;
+  background: black;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+/* .headding {
+  color: black;
+  font-size: 40px !important;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+} */
+
+.wayanad-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../public/Assets/wayanadbg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 799px) {
+  .fixed-icon {
+    top: 40%;
+    right: 0;
+  }
+
+  .place-caption {
+    font-size: 35px;
+  }
+
+  .munnar-place-slider-img {
+    width: 100%;
+    height: 250px;
+}
+}

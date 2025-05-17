@@ -1,0 +1,161 @@
+
+.viewmorepage-banner{
+  position: relative;
+  text-align: center;
+}
+
+.viewmore-banner {
+  width: 100%;
+  height: 400px;
+  /* background-image: url("../../public/Assets/Banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+
+.caption-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.place-caption {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  padding: 0px!important;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+.search-box {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.input-group-btn {
+  position: relative;
+  left: -10px;
+}
+.search-icon {
+  background: black;
+  color: white;
+  border-radius: unset;
+}
+
+.search-icon:hover {
+  background: black;
+  color: white;
+  border-radius: unset;
+}
+
+.moreplace-card-img{
+  width: 100%;
+  height: 300px;
+}
+
+.fixed-icon {
+  border: 1px solid black;
+  float: right;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 35%;
+  right: 10px;
+  background: black;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+/* .headding {
+  color: black;
+  font-size: 40px !important;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+} */
+
+.viewmore-img {
+  width: 100%;
+}
+
+.enquiry-form{
+    padding: 15px 20px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 1px 15px 1px black ;
+}
+
+.vi_0 {
+  /* border: 2px solid #dee2e6; */
+  border:2px solid lightgray;
+  outline-width: 0px;
+  padding: 7px;
+  border-radius: 5px;
+  width: 100%;
+}
+.read-more{
+  background: #19c4e3;
+  color: black;
+  border: none !important;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.submit{
+  background: black;
+  color: white;
+  border: 1px solid;
+}
+
+.submit:hover{
+  background: white;
+  color: black;
+  border: 1px solid;
+}
+.headding2 {
+  /* color: #19c4e3; */
+  color: black;
+  font-size: 44px !important;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 800;
+  text-shadow: none;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+
+@media only screen and (max-width: 799px) {
+  .fixed-icon {
+    top: 40%;
+    right: 0;
+  }
+ 
+  .viewmore-banner {
+    width: 100%;
+    height: 250px;
+}
+.headding2 {
+  font-size: 30px !important;
+  padding: 12px 0px;
+  color: black;
+  
+}
+.descritin{
+  margin: 5px 0px;
+    text-align: justify;
+    padding: 0px;
+}
+
+}

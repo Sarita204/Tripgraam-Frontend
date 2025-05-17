@@ -1,0 +1,24 @@
+.packagedetails-banner {
+  width: 100%;
+  height: 350px;
+}
+
+.packagedetails-right-img {
+  width: 100%;
+  height: 175px;
+  padding: 2px;
+}
+.first {
+  flex: 1;
+}
+
+.right-imgs {
+  display: flex;
+  margin: 0 10px;
+}
+@media only screen and (max-width: 799px) {
+  .packagedetails-banner {
+    width: 100%;
+    height: 250px;
+  }
+}

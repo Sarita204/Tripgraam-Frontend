@@ -1,0 +1,53 @@
+.gbg-title {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: white;
+}
+
+.gbg-title h2 {
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+.gallery-img{
+    width: 100%;
+    height: 350px;
+}
+
+.gallery-box{
+    border: 1px solid lightgray;
+}
+
+.place-name{
+    padding: 5px 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 799px) {
+  .fixed-icon {
+    top: 40%;
+    right: 0;
+  }
+ 
+  .viewmore-banner {
+    width: 100%;
+    height: 250px;
+}
+
+.gbg-title {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  color: white;
+}
+
+.gbg-title h2 {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+}

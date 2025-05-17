@@ -1,0 +1,289 @@
+.tail-text {
+  font-size: 17px;
+  color: white;
+}
+
+.search-icon {
+  display: flex;
+  background-color: white;
+  border: 1px solid white;
+  padding: 2px 23px;
+  border-radius: 5px;
+  align-items: center;
+}
+.in-seaarch {
+  padding: 10px 23px;
+  color: black;
+  font-size: 15px;
+  outline: 0;
+}
+
+.user {
+  color: white;
+  border-radius: 12px;
+  padding: 12px 8px;
+  background: #19c4e3;
+  text-decoration: none;
+}
+
+/* top header start  */
+.main-header {
+  background: linear-gradient(45deg, #16cae5, rgb(26, 25, 25));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative; /* Ensure it's positioned relative to place the scrolling icon */
+  overflow: hidden; /* Hide any overflow content */
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.sale-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timer-button {
+  margin-left: auto;
+}
+
+.scrolling-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure it spans the entire width */
+  height: 100%; /* Ensure it spans the entire height */
+  overflow: hidden; /* Hide the overflow content */
+}
+
+.scrolling-icon svg {
+  position: absolute;
+  top: -8px;
+  left: -10%; /* Start the icon just outside the left boundary */
+  animation: scroll 5s linear infinite;
+  opacity: 0.4;
+}
+
+@keyframes scroll {
+  0% {
+    left: 10%;
+  }
+  100% {
+    left: 110%; /* Move the icon just outside the right boundary */
+  }
+}
+
+/* top header end  */
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -25px;
+  position: absolute;
+}
+.headers .nav-link {
+  /* margin: 0px 20px; */
+  margin: 0px 10px;
+  /* color: black; */
+  color: white;
+  /* font-size: 20px; */
+  font-size: 14px;
+  font-weight: 600;
+  /* font-family: "Piazzolla", serif; */
+}
+
+.top-nav {
+  display: flex;
+  float: left;
+}
+
+.navbar-left-content {
+  display: flex;
+  float: right;
+}
+.col-sm-12 {
+  display: flex;
+  gap: 12px;
+}
+.top-nav-icon {
+  margin: 5px 0;
+}
+
+.logo-img {
+  width: 100%;
+  float: inline-start;
+  height: 40px;
+}
+
+.top-nav-header.collapsed {
+  height: 3rem !important; /* Example: Set the height to a smaller value when collapsed */
+  transform: translateY(-100%) !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+
+.top-nav-icon-content {
+  padding: 10px 12px 0 0px;
+}
+.top-nav-icon-content p {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.375;
+}
+
+.serach {
+  display: flex;
+  color: gray;
+  text-decoration: none;
+  align-items: baseline;
+  gap: 10px;
+}
+.navbar-right-content {
+  display: flex;
+  padding: 12px 0;
+  gap: 40px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  height: 7rem;
+  width: 8rem;
+  padding: 5px 0 !important;
+  margin: 0px !important;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: black;
+  left: -10px;
+  top: 44px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.active-link {
+  color: red;
+  text-decoration: underline;
+  /* Add any other styles for the active link here */
+}
+
+.text-typer-animation {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid #1487c6; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 799px) {
+  /* .top-nav-header {
+    display: none;
+  } */
+  .sale-text {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    transform: none;
+  }
+  .timer-button {
+    padding: 32px 0px 5px 0px;
+  }
+  .navbar-right-content {
+    text-align: center;
+    display: block;
+  }
+  .dropdown-content {
+    left: 35px !important;
+    position: absolute;
+  }
+  .user {
+    color: black;
+    border-radius: 12px;
+    padding: 12px 8px;
+    text-decoration: none;
+  }
+}
+
+.vi_2 {
+  border: 2px solid #82b7ec;
+  outline-width: 0px;
+  padding: 7px;
+  border-radius: 5px;
+  width: 100%;
+  resize: none !important;
+}
+
+.hithere {
+  animation: hithere 1s ease infinite;
+}
+@keyframes hithere {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  70% {
+    transform: translateY(0%);
+  }
+  80% {
+    transform: translateY(-15%);
+  }
+  90% {
+    transform: translateY(0%);
+  }
+  95% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
